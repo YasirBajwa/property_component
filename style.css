@@ -1,0 +1,342 @@
+body{
+    background-color: rgb(254, 233, 232);
+
+}
+
+.main__search{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.search__land {
+    width: 350px;
+    height: 40px;
+    background-color: white;
+   
+}
+.search__land  input{
+    width: 270px;
+    height: 40px;
+    margin-top: 0 !important;
+    border: none;
+    outline: none;
+}
+
+.fa-map-marker{
+    padding-left: 10px;
+}
+
+/*------Search Modal-------------------------*/
+.modal-body *{
+    /* padding-left: 0 !important; */
+    /* padding-right: 0 !important; */
+    /* margin: 0; */
+    /* padding: 0; */
+}
+.modal__header{
+    /* width: 20px !important; */
+    /* height: 25px; */
+    max-width: 60px;
+    height: 30px;
+    border: 1px solid lightgray;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    /* margin-left: 1px; */
+}
+.modal__header__last{
+    max-width: 120px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+
+}
+.modal__header__first{
+    background-color: gray;
+    border: gray;
+    color: white;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+
+}
+.option__list{
+    /* margin-left: 30px !important; */
+}
+
+
+.modal-content{
+    max-width: 400px;
+}
+
+.locality__project div{
+    padding-left: 0;
+}
+.location__city{
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    width: 130px;
+    text-align: center;
+    border-radius: 15px;
+    color: green;
+}
+.location__newCity input{
+    border: none;
+    outline: none;
+}
+
+.current__location div{
+    margin-left: 0;
+    font-size: 14px;
+    padding-right: 0;
+    padding-left: 0;
+    
+}
+.current__location{
+    /* display: flex; */
+    /* justify-content: space-around; */
+}
+.current__location :first-child{
+    color: red;
+}
+.house__list div{
+    border: 1px solid lightgray;
+    max-width: 170px !important;
+    height: 80px;
+    margin-left: 5px;
+   font-size: 11px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+
+}
+.house__list div i{
+    font-size: 35px;
+}
+.btn-group .btn{
+    border: 1px solid lightgrey !important;
+    background-color: white !important;
+    color: black !important;
+    width: 60px;
+    outline: none;
+}
+.modal__bottom{
+    max-width: 70px;
+    height: 30px;
+    margin-left: 5px;
+    border: 1px solid lightgray;
+    font-size: 12px;
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    cursor: pointer;
+}
+.modal__footer__btn button{
+    width: 100%;
+    border: none;
+    outline: none;
+    color: gray;
+}
+.modal__footer__btn__last button{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: red;
+    color:white;
+    height: 35px !important;
+    border-radius: 5px;
+}
+/*----------End Modal------*/
+
+
+
+
+
+
+
+
+.search__property__type .dropdown a{
+    width: 160px;
+    height: 40px;
+    border: none;
+    outline: none; 
+    border-left: 1px solid lightgray;
+    background-color: white !important;
+   
+}
+.search__property__type .dropdown-menu{
+    width: 550px;
+    height: 250px;
+    border: none;
+}
+.search__budget__type .dropdown a{
+    width: 160px;
+    height: 40px;
+    border: none;
+    outline: none; 
+    border-left: 1px solid lightgray;
+    background-color: white !important;
+}
+.search__budget__type .dropdown-menu{
+    width: 200px;
+    height: 200px;
+    border: none;
+    overflow-y: scroll;
+}
+.search__residential__checkbox span,input{
+    margin-left: 20px !important;
+}
+.search_commerical_checkbox input{
+    font-size: 12px !important
+    ;
+}
+
+.search__budget_fields span input{
+    width: 60px;
+    outline: none;
+}
+
+.min__range ul{
+    list-style-type: '\20B9';
+    cursor: pointer;
+}
+.max__range ul{
+    cursor: pointer;
+    list-style-type: '\20B9';
+}
+/* .dropdown-b:hover .dropdown-menu-b {display: block;} */
+
+
+
+
+
+
+.search__budget .dropdown{
+    width: 120px;
+    height: 40px;
+    border: none;
+    outline: none; 
+    border-left: 1px solid lightgray;
+}
+.search__btn button{
+    height: 40px;
+}
+
+@media(max-width:1057px){
+    .search__land{
+        width: 70%;
+    }
+    .search__property__type {
+        width: 35%;
+    }
+    .search__btn{
+        margin-left: 20px;
+    }
+}
+
+@media(max-width:627px){
+    .search__property__type .dropdown-menu{
+        width: 450px;
+        font-size: 11px;
+        height: 170px;
+    }
+    .search__land{
+        /* width: 70%; */
+    }
+    .search__property__type {
+        /* width: 35%; */
+    }
+    .search__btn{
+        /* margin-left: 20px; */
+    }
+}
+
+@media(max-width:484px){
+    .search__property__type .dropdown-menu{
+        width: 400px;
+        font-size: 10px;
+        height: 170px;
+    }}
+
+    @media(max-width:408px){
+        .search__property__type .dropdown-menu{
+            width: 350px;
+            font-size: 8px;
+            height: 170px;
+        }
+        .search__land{
+            width: 80%;
+        }
+        .search__property__type {
+            width: 80%;
+         
+           
+        }
+        .search__budget__type{
+            width: 80%;
+        }
+        .search__btn{
+            width: 85%;
+
+        }
+        .search__btn button{
+            width: 160px;
+
+        }
+        .search__land{
+            width: 90%;
+        }
+    
+    }
+
+    @media(max-width:390px){
+        .search__property__type .dropdown-menu{
+            width: 340px;
+            font-size: 14px;
+            height: 280px;
+        }
+    }
+
+    @media(max-width:375px){
+        .search__property__type .dropdown-menu{
+            width: 300px;
+            /* height: 220px; */
+            font-size: 12px;
+            height: 280px;
+        }
+    }
+    @media(max-width:348px){
+        .search__land input{
+            width: 80%;
+        }
+        .search__land input::placeholder{
+            font-size: 13px !important;
+        }
+    }
+
+    @media(max-width:330px){
+        .search__property__type .dropdown-menu{
+            width: 270px;
+            /* height: 220px; */
+            font-size: 10px;
+            height: 280px;
+        }
+    }
+
+
+
+ /* .addClass{
+     border: 2px solid red !important;
+     font-size: 35px !important;
+ }    */
+
+ .active{
+    background-color:rgba(226,37,37,1);
+    color: #fff !important;
+}
